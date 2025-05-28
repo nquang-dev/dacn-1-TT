@@ -1,0 +1,134 @@
+/* === CHAT STYLES === */
+.chat-sidebar {
+    background: var(--bg-secondary);
+    border-radius: 16px;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-md);
+    overflow: hidden;
+}
+
+.chat-header {
+    background: var(--primary-gradient);
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.chat-icon {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.chat-header h3 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.question-cards {
+    padding: 1rem;
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+.question-cards .stButton > button {
+    background: var(--bg-accent) !important;
+    color: var(--text-primary) !important;
+    text-align: left !important;
+    margin-bottom: 0.5rem !important;
+    border-radius: 8px !important;
+    padding: 1rem !important;
+    font-weight: 400 !important;
+    width: 100% !important;
+    border: 1px solid var(--border-color) !important;
+}
+
+.question-cards .stButton > button:hover {
+    background: var(--primary-color) !important;
+    color: white !important;
+    border-color: var(--primary-color) !important;
+}
+
+.chat-area {
+    background: var(--bg-secondary);
+    border-radius: 16px;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-md);
+    overflow: hidden;
+    height: fit-content;
+}
+
+.empty-chat-state {
+    text-align: center;
+    padding: 3rem 2rem;
+    color: var(--text-secondary);
+}
+
+.empty-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.empty-chat-state h4 {
+    margin: 0 0 1rem 0;
+    color: var(--text-primary);
+}
+
+.empty-chat-state p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.chat-bubble {
+    display: flex;
+    margin: 1rem;
+    gap: 0.75rem;
+}
+
+.chat-bubble.user {
+    justify-content: flex-end;
+}
+
+.chat-bubble.user .bubble-content {
+    background: var(--primary-gradient);
+    color: white;
+    border-radius: 18px 18px 4px 18px;
+}
+
+.chat-bubble.bot .bubble-content {
+    background: var(--bg-accent);
+    color: var(--text-primary);
+    border-radius: 18px 18px 18px 4px;
+}
+
+.bubble-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+.chat-bubble.user .bubble-avatar {
+    background: #b0beff;
+    color: white;
+}
+
+.chat-bubble.bot .bubble-avatar {
+    background: var(--secondary-color);
+    color: white;
+}
+
+.bubble-content {
+    max-width: 70%;
+    padding: 1rem 1.25rem;
+    box-shadow: var(--shadow-sm);
+}
+
+.bubble-text {
+    line-height: 1.5;
+    font-size: 0.95rem;
+}

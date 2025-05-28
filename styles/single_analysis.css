@@ -1,0 +1,105 @@
+/* === SINGLE ANALYSIS STYLES === */
+
+.upload-section {
+    background: var(--bg-secondary);
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-sm);
+}
+
+.upload-header {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.upload-header h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.upload-header p {
+    margin: 0;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+.image-viewer {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 1rem;
+    box-shadow: var(--shadow-sm);
+    margin-bottom: 1rem;
+}
+
+.image-viewer img {
+    border-radius: 12px;
+}
+
+.result-alert {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    border-radius: 16px;
+    margin-bottom: 1.5rem;
+    box-shadow: var(--shadow-md);
+}
+
+.result-alert.success {
+    background: linear-gradient(135deg, #d1fae5, #a7f3d0);
+    border-left: 4px solid var(--secondary-color);
+}
+
+.result-alert.danger {
+    background: linear-gradient(135deg, #fef2f2, #fecaca);
+    border-left: 4px solid var(--warning-color);
+}
+
+.alert-icon {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.alert-content h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.alert-content p {
+    margin: 0;
+    color: var(--text-secondary);
+}
+
+.info-panel {
+    background: var(--bg-accent);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-top: 1rem;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.info-row:last-child {
+    border-bottom: none;
+}
+
+.info-label {
+    font-weight: 500;
+    color: var(--text-secondary);
+}
+
+.info-value {
+    font-weight: 600;
+    color: var(--text-primary);
+}

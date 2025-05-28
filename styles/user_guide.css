@@ -1,0 +1,117 @@
+/* === USER GUIDE STYLES === */
+
+.warning-panel {
+    background: linear-gradient(135deg, #fff3cd, #ffeaa7);
+    border: 1px solid #ffc107;
+    border-radius: 16px;
+    padding: 2rem;
+    margin: 2rem 0;
+    box-shadow: var(--shadow-md);
+}
+
+.warning-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.warning-icon {
+    font-size: 2rem;
+    margin-right: 1rem;
+    color: #e67e22;
+}
+
+.warning-header h3 {
+    margin: 0;
+    color: var(--text-primary);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.warning-content p {
+    margin: 0.75rem 0;
+    color: var(--text-primary);
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.warning-content strong {
+    color: #d35400;
+    font-weight: 600;
+}
+
+.footer-info {
+    background: var(--bg-secondary);
+    border-radius: 16px;
+    padding: 2rem;
+    margin: 3rem 0 1rem 0;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-md);
+    text-align: center;
+}
+
+.footer-content h4 {
+    margin: 0 0 1rem 0;
+    color: var(--text-primary);
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.footer-content p {
+    margin: 0.5rem 0;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+/* Expander customization */
+.streamlit-expanderHeader {
+    background: var(--bg-accent) !important;
+    border-radius: 12px !important;
+    border: 1px solid var(--border-color) !important;
+    padding: 1rem 1.5rem !important;
+    margin-bottom: 1rem !important;
+    font-weight: 600 !important;
+    color: var(--text-primary) !important;
+    transition: all 0.3s ease !important;
+}
+
+.streamlit-expanderHeader:hover {
+    background: var(--primary-color) !important;
+    color: white !important;
+    border-color: var(--primary-color) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: var(--shadow-md) !important;
+}
+
+.streamlit-expanderContent {
+    background: var(--bg-secondary) !important;
+    border: 1px solid var(--border-color) !important;
+    border-radius: 0 0 12px 12px !important;
+    padding: 1.5rem !important;
+    margin-top: -1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+/* Guide content styling */
+.streamlit-expanderContent p {
+    color: var(--text-primary) !important;
+    line-height: 1.6 !important;
+    margin-bottom: 1rem !important;
+}
+
+.streamlit-expanderContent strong {
+    color: var(--primary-color) !important;
+    font-weight: 600 !important;
+}
+
+/* Lists in expander */
+.streamlit-expanderContent ul {
+    padding-left: 1.5rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.streamlit-expanderContent li {
+    color: var(--text-primary) !important;
+    margin-bottom: 0.5rem !important;
+    line-height: 1.5 !important;
+}

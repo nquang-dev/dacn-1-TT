@@ -1,0 +1,148 @@
+/* === COMPONENTS CHUNG === */
+
+/* Success Notification */
+.success-notification {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #d4edda, #c3e6cb);
+    border: 1px solid #b8daff;
+    border-radius: 12px;
+    padding: 1rem 1.5rem;
+    margin: 1rem 0;
+    box-shadow: var(--shadow-sm);
+}
+
+.notification-icon {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.notification-text {
+    font-weight: 500;
+    color: var(--text-primary);
+}
+
+/* Content Sections */
+.content-section {
+    background: var(--bg-secondary);
+    border-radius: 16px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-md);
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.title-icon {
+    font-size: 2rem;
+    background: var(--primary-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.section-title h2 {
+    margin: 0;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.section-desc {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+/* Buttons */
+.stButton > button {
+    background: var(--primary-gradient) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 12px !important;
+    padding: 0.75rem 1.5rem !important;
+    font-weight: 600 !important;
+    font-size: 1rem !important;
+    box-shadow: var(--shadow-md) !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.stButton > button:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: var(--shadow-lg) !important;
+}
+
+.stDownloadButton > button {
+    background: var(--success-gradient) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 12px !important;
+    padding: 0.75rem 1.5rem !important;
+    font-weight: 600 !important;
+    box-shadow: var(--shadow-md) !important;
+}
+
+/* File Uploader */
+[data-testid="stFileUploader"] {
+    background: var(--bg-accent) !important;
+    border: 2px dashed var(--border-color) !important;
+    border-radius: 16px !important;
+    padding: 2rem !important;
+    text-align: center !important;
+    transition: all 0.3s ease !important;
+}
+
+[data-testid="stFileUploader"]:hover {
+    border-color: var(--primary-color) !important;
+    background: rgba(102, 126, 234, 0.05) !important;
+}
+
+/* Progress Bar */
+.stProgress > div > div > div > div {
+    background: var(--primary-gradient) !important;
+    border-radius: 10px !important;
+}
+
+.stProgress > div > div > div {
+    background: var(--bg-accent) !important;
+    border-radius: 10px !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main .block-container {
+        padding: 1rem;
+    }
+    
+    .hero-section {
+        padding: 1rem 0;
+    }
+    
+    .floating-card {
+        margin: 0 1rem;
+        padding: 1.5rem;
+    }
+    
+    .card-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 1.5rem;
+    }
+    
+    .main-title {
+        font-size: 2rem;
+    }
+    
+    .tagline {
+        font-size: 1rem;
+    }
+    
+    .feature-badges {
+        justify-content: center;
+    }
+}
